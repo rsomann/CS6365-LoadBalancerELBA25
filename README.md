@@ -1,3 +1,21 @@
+# CS6365 - Load Balancer Optimization for Social Networks
+
+## Project Overview
+This project focuses on analyzing and optimizing **load balancing strategies** for a **microservice-based social network**. We evaluate **Round-Robin, Weighted Round-Robin, and Adaptive Load Balancing** in a Kubernetes-based deployment to measure their effectiveness under different workloads.
+
+### **Goals**
+- Improve **scalability and performance** of social network services.
+- Compare different **load balancing strategies** under various traffic patterns.
+- Measure **latency, request throughput, CPU/memory utilization, and error rates**.
+- Ensure **reproducibility** by providing clear setup and testing procedures.
+
+## Technologies Used
+- **CloudLab** Experiment deployment & resource allocation.
+- **Kubernetes** (Service Deployment & Load Balancing)
+- **Docker** (Containerization)
+- **Apache JMeter & Locust** (Workload Simulation & Traffic Testing)
+- **Prometheus & Grafana** (Performance Monitoring & Visualization)
+
 # Cloudlab Setup Guide
 
 ## Instantiating an experiment
